@@ -26,7 +26,7 @@ class Cup
     if amount < 0
       puts "Backwash is gross, ain't nobody got time for that!"
     elsif amount > @drink_amount
-      puts "Mmmmm delicious!"
+      puts "Mmmmm  delicious!"
       self.empty
     else
       @drink_amount -= amount
